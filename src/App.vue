@@ -1,15 +1,24 @@
 <template>
   <chartOne />
+  <chartTwo />
+  <chartThree />
+  <BarChart />
 </template>
 
 
 <script>
 import chartOne from './components/chartOne.vue'
+import chartTwo from './components/chartTwo.vue'
+import chartThree from './components/chartThree.vue'
+import BarChart from './components/BarChart.vue'
 
 export default {
   name: 'App',
   components: {
-    chartOne
+    chartOne,
+    chartTwo,
+    chartThree,
+    BarChart
   }
 }
 </script>
